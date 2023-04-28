@@ -3,6 +3,7 @@ using CommandService.Data;
 using CommandService.Data.Repositories;
 using CommandService.EventProcessing;
 using CommandService.Intefaces;
+using CommandService.SyncDataServices.Grpc;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -17,6 +18,10 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<ICommandRepository, CommandRepository>();
 builder.Services.AddSingleton<IEventProcessor, EventProcessor>();
 builder.Services.AddHostedService<MessageBusSubscriber>();
+
+#region Services
+builder.Services.AddScoped<IPlatformDataClient, PlatformDataClient>();
+#endregion
 
 if(builder.Environment.IsDevelopment()){
     Console.WriteLine("--> Using inMem DB");
@@ -53,4 +58,8 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+PrepDb.PrepPopulation(app);
+
 app.Run();
+
+

@@ -172,3 +172,7 @@
 /home/lucas/Documentos/Estudo/agap2it/Microservices/E3/dotnetMicroserviceWithKubernetes/CommandsService/obj/Debug/net6.0/ref/CommandsService.dll
 /home/lucas/Documentos/Estudo/agap2it/Microservices/E3/dotnetMicroserviceWithKubernetes/CommandsService/obj/Debug/net6.0/CommandsService.pdb
 /home/lucas/Documentos/Estudo/agap2it/Microservices/E3/dotnetMicroserviceWithKubernetes/CommandsService/obj/Debug/net6.0/CommandsService.genruntimeconfig.cache
+/home/lucas/Documentos/Estudo/agap2it/Microservices/E3/dotnetMicroserviceWithKubernetes/CommandsService/bin/Debug/net6.0/Google.Protobuf.dll
+/home/lucas/Documentos/Estudo/agap2it/Microservices/E3/dotnetMicroserviceWithKubernetes/CommandsService/bin/Debug/net6.0/Grpc.Core.Api.dll
+/home/lucas/Documentos/Estudo/agap2it/Microservices/E3/dotnetMicroserviceWithKubernetes/CommandsService/bin/Debug/net6.0/Grpc.Net.Client.dll
+/home/lucas/Documentos/Estudo/agap2it/Microservices/E3/dotnetMicroserviceWithKubernetes/CommandsService/bin/Debug/net6.0/Grpc.Net.Common.dll

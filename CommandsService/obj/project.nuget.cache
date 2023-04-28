@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rI5vCh1L9bMPyvI9N/pi13veNipuyREXCdrjY/QA9cz5sueyumvfE+kFfykzAW24IvaYDp6W1y/KPpPyldsNpQ==",
+  "dgSpecHash": "0ZcZr0MbtTYdx7XA9xp3SkHnxmPW94FivcsnBBMPb/NVgPWLS31+8FkOvaHwgnkJNPRvzBLd2nyc09vVj9oO5w==",
   "success": true,
   "projectFilePath": "/home/lucas/Documentos/Estudo/agap2it/Microservices/E3/dotnetMicroserviceWithKubernetes/CommandsService/CommandsService.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,11 @@
     "/home/lucas/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.0/automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "/home/lucas/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/home/lucas/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",
+    "/home/lucas/.nuget/packages/google.protobuf/3.22.3/google.protobuf.3.22.3.nupkg.sha512",
+    "/home/lucas/.nuget/packages/grpc.core.api/2.52.0/grpc.core.api.2.52.0.nupkg.sha512",
+    "/home/lucas/.nuget/packages/grpc.net.client/2.52.0/grpc.net.client.2.52.0.nupkg.sha512",
+    "/home/lucas/.nuget/packages/grpc.net.common/2.52.0/grpc.net.common.2.52.0.nupkg.sha512",
+    "/home/lucas/.nuget/packages/grpc.tools/2.54.0/grpc.tools.2.54.0.nupkg.sha512",
     "/home/lucas/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/lucas/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/home/lucas/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",

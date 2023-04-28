@@ -21,6 +21,7 @@ namespace CommandService.Data.Repositories
 
         public void CreatePlatform(Platform plat)
         {
+            Console.WriteLine($"--> plat to be inserted: externalId: {plat.ExternalId} name: {plat.Name} id: {plat.Id}");
             if(plat == null)
                 throw new ArgumentNullException(nameof(plat));
             _context.Platforms.Add(plat);
@@ -51,7 +52,7 @@ namespace CommandService.Data.Repositories
             return commands.OrderBy(c => c.Platform.Name);
         }
 
-        public bool PlatformExits(int platformId)
+        public bool PlatformExists(int platformId)
         {
             return _context.Platforms.Any(p => p.Id == platformId);
         }

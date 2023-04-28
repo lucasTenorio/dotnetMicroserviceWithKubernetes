@@ -259,3 +259,10 @@
 /home/lucas/Documentos/Estudo/agap2it/Microservices/E3/dotnetMicroserviceWithKubernetes/PlatformService/obj/Debug/net6.0/ref/PlatformService.dll
 /home/lucas/Documentos/Estudo/agap2it/Microservices/E3/dotnetMicroserviceWithKubernetes/PlatformService/obj/Debug/net6.0/PlatformService.pdb
 /home/lucas/Documentos/Estudo/agap2it/Microservices/E3/dotnetMicroserviceWithKubernetes/PlatformService/obj/Debug/net6.0/PlatformService.genruntimeconfig.cache
+/home/lucas/Documentos/Estudo/agap2it/Microservices/E3/dotnetMicroserviceWithKubernetes/PlatformService/bin/Debug/net6.0/Google.Protobuf.dll
+/home/lucas/Documentos/Estudo/agap2it/Microservices/E3/dotnetMicroserviceWithKubernetes/PlatformService/bin/Debug/net6.0/Grpc.AspNetCore.Server.dll
+/home/lucas/Documentos/Estudo/agap2it/Microservices/E3/dotnetMicroserviceWithKubernetes/PlatformService/bin/Debug/net6.0/Grpc.AspNetCore.Server.ClientFactory.dll
+/home/lucas/Documentos/Estudo/agap2it/Microservices/E3/dotnetMicroserviceWithKubernetes/PlatformService/bin/Debug/net6.0/Grpc.Core.Api.dll
+/home/lucas/Documentos/Estudo/agap2it/Microservices/E3/dotnetMicroserviceWithKubernetes/PlatformService/bin/Debug/net6.0/Grpc.Net.Client.dll
+/home/lucas/Documentos/Estudo/agap2it/Microservices/E3/dotnetMicroserviceWithKubernetes/PlatformService/bin/Debug/net6.0/Grpc.Net.ClientFactory.dll
+/home/lucas/Documentos/Estudo/agap2it/Microservices/E3/dotnetMicroserviceWithKubernetes/PlatformService/bin/Debug/net6.0/Grpc.Net.Common.dll

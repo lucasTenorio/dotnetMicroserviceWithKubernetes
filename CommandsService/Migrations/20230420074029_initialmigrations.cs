@@ -5,7 +5,7 @@
 namespace CommandsService.Migrations
 {
     /// <inheritdoc />
-    public partial class initialMigration : Migration
+    public partial class initialmigrations : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

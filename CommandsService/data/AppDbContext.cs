@@ -9,8 +9,8 @@ namespace CommandService.Data
         {
             
         }
-        public DbSet<Platform> Platforms => Set<Platform>();
-        public DbSet<Command> Commands => Set<Command>();
+        public DbSet<Platform> Platforms { get; set; }
+        public DbSet<Command> Commands { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder){
             modelBuilder.Entity<Platform>()

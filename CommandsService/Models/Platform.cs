@@ -10,7 +10,7 @@ namespace CommandService.Models
         [Required]
         public int ExternalId { get; set; }
         [Required]
-        public string Name { get; set; }  = String.Empty;
+        public string? Name { get; set; }  = String.Empty;
         public ICollection<Command> Commands { get; set; } = new List<Command>();
     }
 }

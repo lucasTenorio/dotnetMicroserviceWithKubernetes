@@ -23,7 +23,7 @@ namespace CommandService.Controllers
         public ActionResult<IEnumerable<CommandReadDto>> GetCommandsForPlatform(int platformId)
         {
             Console.WriteLine($" --> Hit GetCommandsForPlatform : {platformId}");
-            if(!_repository.PlatformExits(platformId))
+            if(!_repository.PlatformExists(platformId))
             {
                 return NotFound();
             }
@@ -35,7 +35,7 @@ namespace CommandService.Controllers
         public ActionResult<CommandReadDto> GetCommandForPlatform(int platformId, int commandId)
         {
             Console.WriteLine($" --> Hit GetCommandForPlatform : {platformId}");
-            if(!_repository.PlatformExits(platformId))
+            if(!_repository.PlatformExists(platformId))
             {
                 return NotFound();
             }
@@ -52,13 +52,13 @@ namespace CommandService.Controllers
             CommandCreateDto commandDto)
         {
               Console.WriteLine($" --> Hit CreateCommandForPlatform : {platformId}");
-            if(!_repository.PlatformExits(platformId))
+            if(!_repository.PlatformExists(platformId))
             {
                 return NotFound();
             }
 
             var command = _mapper.Map<Command>(commandDto);
-            
+
             _repository.CreateCommand(platformId, command);
             _repository.SaveChanges();
 
